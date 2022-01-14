@@ -1,0 +1,6 @@
+class Yes {
+}
+
+fun main() {
+
+}
