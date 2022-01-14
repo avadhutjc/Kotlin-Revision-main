@@ -59,7 +59,6 @@ private class Teacher : FirstTime {
 
 }
 
-
 //see class Student.kt for more understanding in deep
 /*
 // Protected modifier example
