@@ -5,6 +5,7 @@ fun doSomething() {
     println("doSomething end");
 }
 
+
 inline fun doSomethingElse(myFun: () -> Unit) {
     myFun()
     println("code inside inline function")
