@@ -20,9 +20,11 @@ public class StaticMethod {
         public static void HotBomb() { //static method
             System.out.println("HotBomb Called");
         }
+
         public void CoolBomb() { //non static method
             System.out.println("Cool Bomb Called");
         }
+
         public static void main(String[] args) {
             HotBomb(); //without creating obj of Abc we can access static method
             Abc obj = new Abc();
@@ -30,3 +32,8 @@ public class StaticMethod {
         }
     }
 }
+/*
+HotBomb Called
+Cool Bomb Called
+Process finished with exit code 0
+ */
