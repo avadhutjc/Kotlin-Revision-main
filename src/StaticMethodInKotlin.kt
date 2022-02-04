@@ -3,7 +3,7 @@ class StaticMethodInKotlin {
 
 class CompanionClass {
     companion object Test {
-        fun callMe() =
+        fun staticMethodCall() =
             print("This block is static Block")
 
         var someInteger: Int = 10
@@ -18,7 +18,7 @@ fun main() {
     val c = CompanionClass()
     c.notStaticMethod() //this is not static so we need to create obj of class then called method from that class
 
-    CompanionClass.callMe()  //this is static method so we called  this way ...need not to create obj for static method
+    CompanionClass.staticMethodCall()  //this is static method so we called  this way ...need not to create obj for static method
     println(CompanionClass.Test.someInteger)
 }
 /*
