@@ -14,6 +14,7 @@ fun execute(op: ArithmeticOperation) = when (op) {
     is Divide -> op.a / op.b
 }
 
+
 fun main(args: Array<String>) {
     val a = 4 ; val b = 3
     val operation1 = Add(a, b)
