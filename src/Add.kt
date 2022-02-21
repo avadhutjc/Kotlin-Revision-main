@@ -17,3 +17,8 @@ fun main() {
     add(1,5)
     result
 }
+
+
+class Stack {
+
+}
